@@ -15,7 +15,7 @@ I want to learn about:
 
 So I started this seed! This seed is based on [Angular Express Seed](https://github.com/btford/angular-express-seed).
 
-Express is used to serve the static files, templates to AngularJS and provide an RESTful API to manipulate MongoDB collections.
+Express is used to serve the static files, templates to AngularJS and provide a RESTful API to manipulate MongoDB collections.
 
 Gulp is used to build our frontend files (CSS, JS and optimize images).
 
