@@ -1,5 +1,9 @@
 # AngularJS / RequireJS / Gulp / Express / MongoDB Seed
 
+## Demo
+
+Demo available: http://projects.igorprado.com/project-seed/
+
 For studies purpose, I started to build an simple app that I could use:
 * [NodeJS](http://nodejs.org/)
 * [Express](http://expressjs.com/)
