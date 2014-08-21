@@ -6,7 +6,7 @@ Demo available: http://projects.igorprado.com/project-seed/
 
 ## About
 
-I want to learn about:
+I wanted to learn about:
 * [NodeJS](http://nodejs.org/)
 * [Express](http://expressjs.com/)
 * [AngularJS](https://angularjs.org/)
