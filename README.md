@@ -4,22 +4,20 @@
 
 Demo available: http://projects.igorprado.com/project-seed/
 
-For studies purpose, I started to build an simple app that I could use:
+## About
+
+I want to learn about:
 * [NodeJS](http://nodejs.org/)
 * [Express](http://expressjs.com/)
 * [AngularJS](https://angularjs.org/)
 * [MongoDB](https://www.mongodb.com/)
 * [Gulp](http://gulpjs.com/)
 
+So I started this seed! This seed is based on [Angular Express Seed](https://github.com/btford/angular-express-seed).
+
 Express is used to serve the static files, templates to AngularJS and provide an RESTful API to manipulate MongoDB collections.
 
 Gulp is used to build our frontend files (CSS, JS and optimize images).
-
-This seed is based on:
-* [Angular Express Seed](https://github.com/btford/angular-express-seed)
-* [AngularAMD](https://github.com/marcoslin/angularAMD)
-* [AngularUI Router](https://github.com/angular-ui/ui-router)
-* [Bootstrap](http://getbootstrap.com/)
 
 ## How to use this seed
 
