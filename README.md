@@ -29,13 +29,13 @@ Run `npm install` to install the dependencies:
     
     npm install
 
-Install Gulp globally
+Install Gulp globally:
 
     npm install gulp -g
 
 ### Running the app
 
-Build the frontend files
+Build the frontend files:
 
     gulp
 
@@ -93,7 +93,7 @@ I have to learn more about tests. So, it's on my roadmap for this seed.
 
 ## Example App
 
-A simple [beer management app](http://projects.igorprado.com) is running and using this seed.
+A simple [beer management app](http://projects.igorprado.com/project-seed/) is running and using this seed.
 
 ## Support
 
