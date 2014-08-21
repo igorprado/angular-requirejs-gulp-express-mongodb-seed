@@ -37,7 +37,7 @@ Install Gulp globally:
 
 ### Running the app
 
-Build the frontend files:
+Build the frontend files running:
 
     gulp
 
@@ -53,7 +53,7 @@ Runs like a typical express app:
 
     node app.js
 
-_For development enviroment, I recommend install [Supervisor](https://github.com/isaacs/node-supervisor)._
+_For development enviroment, I recommend [Supervisor](https://github.com/isaacs/node-supervisor)._
 
 ### Running tests
 
