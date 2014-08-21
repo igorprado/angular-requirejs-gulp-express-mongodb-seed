@@ -1,0 +1,31 @@
+!!!
+html(lang="pt-BR")
+  head
+    meta(charset='utf8')
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="{{project.description}}")
+
+    //- Add to homescreen for Chrome on Android
+    meta(name="mobile-web-app-capable", content="yes")
+    link(rel="shortcut icon", href="img/touch/icon-128x128.png")
+
+    //- Add to homescreen for Safari on iOS
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style", content="black")
+    meta(name="apple-mobile-web-app-title", content="{{projectName}}")
+    link(rel="apple-touch-icon-precomposed", href="apple-touch-icon-precomposed.png")
+
+    //- Tile icon for Win8 (144x144 + tile color)
+    meta(name="msapplication-TileImage", content="img/touch/ms-touch-icon-144x144-precomposed.png")
+    meta(name="msapplication-TileColor", content="#3372DF")
+    
+    base(href='/')
+    
+    title(ng-bind="$state.current.data.title ? $state.current.data.title + ' - ' + project.name : project.name")
+
+    link(rel='stylesheet', href='/lib/ngprogress/ngProgress.css')
+    link(rel='stylesheet', href='/css/app.min.css')
+    link(href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/flatly/bootstrap.min.css", rel="stylesheet")
+  body
+    block body

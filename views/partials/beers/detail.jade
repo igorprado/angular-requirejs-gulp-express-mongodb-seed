@@ -1,0 +1,14 @@
+div.panel.panel-primary
+  div.panel-heading
+    h4 {{beer.name}}
+  div.panel-body 
+    p
+      strong Type:
+      |  {{beer.type}}
+
+  div.panel-footer.text-right
+    div.btn-group
+      a.btn.btn-info.btn-xs(ui-sref="beers.edit({_id: beer._id})")
+        span.glyphicon.glyphicon-pencil
+      a.btn.btn-danger.btn-xs(ng-click="delete(beer._id)")
+        span.glyphicon.glyphicon-remove

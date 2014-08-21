@@ -1,0 +1,24 @@
+div.panel.panel-default
+  div.panel-heading
+    h1.panel-title(ng-bind="beer._id ? 'Edit beer' : 'Add beer'")
+  div.panel-body
+    form(name="beerForm", action="", ng-submit="save()", app-disable-on-submit)
+      div.col-sm-12
+        div.form-group
+          label(for="beer.name") Beer name:
+          input.form-control(type="text", id="beer.name", ng-model="beer.name", required)
+
+      div.col-sm-12
+        div.form-group
+          label(for="") Beer type:
+          div.radio(ng-repeat="type in types track by $index")
+            label.col-sm-4(for="type-{{$index}}")
+              input(type="radio", ng-model="beer.type", id="type-{{$index}}", value="{{type}}")
+              | {{type}}
+
+      
+      div.col-sm-3
+        button.btn.btn-primary.btn-large.btn-submit(ng-disabled="beerForm.$invalid || !beer.type", ng-bind="beer._id ? 'Save' : 'Add'") Save
+      div.col-sm-3.col-sm-offset-6.text-right
+        a.btn.btn-default(ng-if="beer._id", ui-sref="beers.detail({_id: beer._id})") Cancel
+        a.btn.btn-default(ng-if="!beer._id", ui-sref="beers") Cancel

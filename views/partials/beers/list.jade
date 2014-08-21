@@ -1,0 +1,30 @@
+div.page-header
+  .row
+    h1.col-sm-6
+      | Beers 
+      small
+        a(ui-sref="beers") [index]
+
+    .col-sm-6.text-right
+      a.btn.btn-primary.btn-add(ui-sref="beers.add") Add beer
+.col-sm-3
+  ul.list-group.list-beer
+    li.list-group-item(ng-repeat="beer in beers", ng-class="{active: $state.includes('detail')}")
+        a.col-sm-9(ui-sref="beers.detail({ _id: beer._id })")
+          | {{beer.name}}
+        span.btn-group
+          a.btn.btn-xs.btn-link(ui-sref="beers.edit({ _id: beer._id })")
+            span.glyphicon.glyphicon-pencil
+          a.btn.btn-xs.btn-link(ng-click="delete(beer._id)")
+            span.glyphicon.glyphicon-remove
+
+div.col-sm-9
+  div.view-wrapper
+    div.at-view(ui-view="beer")
+      //- This code is avalilable only when there are no state associated to this view
+      h2 History of Beer
+      p
+       strong Beer 
+       | is an alcoholic beverage produced by the saccharification of starch and fermentation of the resulting sugar. The starch and saccharification enzymes are often derived from malted cereal grains, most commonly malted barley and malted wheat. Most beer is also flavoured with hops, which add bitterness and act as a natural preservative, though other flavourings such as herbs or fruit may occasionally be included. The preparation of beer is called brewing.
+
+      p Beer is the world's most widely consumed alcoholic beverage, and is the third-most popular drink overall, after water and tea. It is thought by some to be the oldest fermented beverage.

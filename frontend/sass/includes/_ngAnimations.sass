@@ -1,0 +1,24 @@
+// Define AngularJS CSS Animations
+.ng-hide
+  display: none !important
+
+.view-wrapper
+  position: relative
+  width: 100%
+
+.at-view
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+
+.at-view
+  &.ng-enter,
+  &.ng-leave
+    transition: 0.5s linear all
+    opacity: 0
+
+.at-view
+  &.ng-enter.ng-enter-active,
+  &.ng-move.ng-move-active
+    opacity: 1

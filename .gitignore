@@ -1,0 +1,16 @@
+node_modules
+node_modules/
+node_modules/*
+frontend/lib
+frontend/lib/
+frontend/lib/*
+frontend/.sass-cache
+frontend/.sass-cache/
+frontend/.sass-cache/*
+.sass-cache
+.sass-cache/
+.sass-cache/*
+public
+public/
+public/*
+.DS_Store
