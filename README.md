@@ -2,7 +2,7 @@
 
 ## Demo
 
-Demo available: http://projects.igorprado.com/project-seed/
+Demo available: http://beer-project.herokuapp.com/beers
 
 ## About
 
@@ -28,7 +28,7 @@ Clone this repo:
     git clone git@github.com:igorprado/angular-requirejs-gulp-express-mongodb-seed.git
 
 Run `npm install` to install the dependencies:
-    
+
     npm install
 
 Install Gulp globally:
@@ -60,7 +60,7 @@ _For development enviroment, I recommend [Supervisor](https://github.com/isaacs/
 I have to learn more about tests. So, it's on my roadmap for this seed.
 
 ## Directory Layout
-    
+
     app.js              --> App config
     package.json        --> For npm
     bower.json          --> Frontend libs dependencies
@@ -95,11 +95,11 @@ I have to learn more about tests. So, it's on my roadmap for this seed.
 
 ## Example App
 
-A simple [beer management app](http://projects.igorprado.com/project-seed/) is running and using this seed.
+A simple [beer management app](http://beer-project.herokuapp.com/beers) is running and using this seed.
 
 ## Support
 
-Feel free to comment, fork or upgrade this code. As I said, this was built to study this technologies.
+Feel free to comment, fork or upgrade this code.
 
 ## License
 MIT
